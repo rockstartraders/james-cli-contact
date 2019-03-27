@@ -5,7 +5,7 @@ body *  {
   height: 100%;
   margin: 0;
   padding: 0;
-  max-width: 1050px;	
+  	
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 	 margin-right: 30%;
 	 margin-top: 30px;
      font-family: IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-	 max-width: 1050px;
+	 
     
 }
 
@@ -27,6 +27,8 @@ body {
 #dalawa {
 	text-align:left;
 	font-size: 25px;
+	margin-left: 16px;
+	
 	
 
 	
@@ -117,17 +119,17 @@ button {
   background-color: black;
   border: 2px solid white;
   color: #00FF00;
-  padding: 16px 32px;
-  padding-bottom: 35px;
+  padding: 14px 30px;
+  padding-bottom: 15px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 2px 2px;
   margin-bottom: 40px;
   cursor: pointer;
   border-radius: 4px;
   margin-top:4px;
-  width:13em;
+  width:11em;
   font-family: IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   font-weight: bolder;
   white-space: normal;
@@ -158,8 +160,8 @@ h2 {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
+    font-size: 170%;
+    text-align: left;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
@@ -173,8 +175,8 @@ h2 {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
+    font-size: 170%;
+    text-align: left;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
@@ -182,52 +184,6 @@ h2 {
 
 
 
-.line-3{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%); 
-	
-   
-}
-
-
-
-.line-4{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-
-
-.line-5{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
-	
-      
-}
 
 /* Animation */
 .anim-typewriter{
@@ -238,14 +194,13 @@ h2 {
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 24em;}
+  to{width: 22em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
     
 }
-
 
 
 
