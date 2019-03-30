@@ -170,11 +170,12 @@ h2 {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 160%;
+    font-size: 165%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);  
+    font-family:'Quango';	
 }
 
 
@@ -185,11 +186,12 @@ h2 {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 160%;
+    font-size: 165%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);    
+	font-family:'Quango';
 }
 
 
@@ -224,5 +226,13 @@ h2 {
 }
 
 
+
+@font-face {
+    font-family: 'Quango';
+    src: url('Quango.woff2') format('woff2'),
+        url('Quango.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
 
 
