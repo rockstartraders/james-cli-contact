@@ -1,11 +1,20 @@
 
 
+
+
 body *  {
   width: 100%;
   height: 100%;
-  margin: 0;
   padding: 0;
+  
   	
+}
+
+.typewrite{
+	text-decoration:none;
+	color:white;
+	
+	
 }
 
 body {
@@ -17,24 +26,13 @@ body {
 	 margin-left: 30%;
 	 margin-right: 30%;
 	 margin-top: 30px;
-     font-family: 'White Rabbit',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-	 font-size: 16px;
+     font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
 	 line-height: 1.1;
+	
 	 
     
 }
 
-
-
-#dalawa {
-	text-align:left;
-	font-size: 25px;
-	margin-left: 16px;
-	
-	
-
-	
-}
 
 ::placeholder {
   font-size: 16px;
@@ -136,13 +134,14 @@ button {
   cursor: pointer;
   border-radius: 4px;
   margin-top:2px;
-  width:11em;
+  width:9em;
+  height:3em;
   font-family: 'White Rabbit',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-  font-size: 12px;
+  font-size: 17px;
   text-align: center;
   font-weight: bolder;
   white-space: normal;
-  display: flex;
+  /* display: flex; => tanggal muna */
   justify-content: center;
   
   
@@ -151,68 +150,11 @@ button {
 }
 
 
-
-h2 {
-	padding-top :10px;
-	text-align:left;
+#makinilya {
 	
+	font-size: 40px;
 }
 
-.salamat {
-	text-align:center;
-	
-}
-
-
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 165%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
-    font-family:'Quango';	
-}
-
-
-
-.line-2{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 165%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-	font-family:'Quango';
-}
-
-
-
-
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 3000ms steps(44) infinite normal;  /* Fade effect ito */ 
-			 
-}
-
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 22em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-    
-}
 
 
 
@@ -234,5 +176,6 @@ h2 {
     font-weight: bolder;
     font-style: normal;
 }
+
 
 
