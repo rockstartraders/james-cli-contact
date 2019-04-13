@@ -6,32 +6,38 @@ body *  {
   width: 100%;
   height: 100%;
   padding: 0;
-  
-  	
+  font-family: 'Quango';
+
+
+
+
 }
 
 .typewrite{
 	text-decoration:none;
 	color:white;
-	
-	
+	font-size: calc(19px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	cursor:none;
+
+
 }
 
 body {
 
-     background-color: #300A24;
-	 color: white; 
-     font-weight: bolder;
+   background-color: #300A24;
+	 color: white;
+   font-weight: bolder;
 	 text-align:center;
 	 margin-left: 30%;
 	 margin-right: 30%;
 	 margin-top: 30px;
-     font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+   font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
 	 line-height: 1.1;
-	
-	 
-    
+
+
+
 }
+
 
 
 ::placeholder {
@@ -68,16 +74,16 @@ input[type=number] {
   background-color:#300A24;
   color:white;
   font-size: 16px;
-  
-  
+
+
 }
 
-/* This will remove the scroll bar from the number input */ 
+/* This will remove the scroll bar from the number input */
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-   margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+   margin: 0;
 }
 
 
@@ -102,7 +108,7 @@ input[type=subject] {
   background-color:#300A24;
   color:white;
   font-size: 16px;
-  
+
 }
 
 
@@ -117,21 +123,20 @@ textarea {
   background-color:#300A24;
   color:white;
   font-size: 16px;
-  
-  
+
+
 }
 
 
 button {
-  background-color: black;
+  background-color: #300A24;
   border: 2px solid white;
-  color: #00FF00;
+  color:  #ffffff;
   padding: 14px 30px;
   padding-bottom: 15px;
   text-decoration: none;
   margin: 2px 2px;
   margin-bottom: 40px;
-  cursor: pointer;
   border-radius: 4px;
   margin-top:2px;
   width:9em;
@@ -143,25 +148,63 @@ button {
   white-space: normal;
   /* display: flex; => tanggal muna */
   justify-content: center;
-  
-  
-  
-  
+  margin-left: 1em;
+
+
 }
 
 
-#makinilya {
-	
-	font-size: 40px;
+/* button effect */
+
+.btn:hover {
+color: #00FF00 !important;
+border-radius: 55px;
+border-color: #00FF00 !important;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+font-weight: bolder;
+letter-spacing: 1px;
+font-size: 17px;
+width:9.5em;
+height:3em;
+justify-content: center;
+margin-bottom: 40px;
+line-height: 1.5;
+
 }
 
+/* hover effect para sa ;inl ay magsisimula dito */
+.btn:hover span {display:none}
+.btn:hover:before {content:"Click Me"}
+
+
+.pagkilala {
+
+	text-decoration:none;
+	color: #00FF00 ;
+	font-weight: bolder;
+	transition: .4s;
+  display: inline-block;
+	}
+
+.pagkilala:hover {
+transform: rotate(12deg);
+color: #00FF00;
+font-size: 3.5vw;
+
+
+}
+
+.pagkilala:hover span {display:none}
+.pagkilala:hover:before {content:"Perfect for static sites!"}
 
 
 
 @font-face {
     font-family: 'White Rabbit';
-    src: url('WhiteRabbit.woff2') format('woff2'),
-        url('WhiteRabbit.woff') format('woff');
+    src: url('/font/WhiteRabbit.woff2') format('woff2'),
+        url('/font/WhiteRabbit.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 	letter-spacing: 3px;
@@ -171,11 +214,8 @@ button {
 
 @font-face {
     font-family: 'Quango';
-    src: url('Quango.woff2') format('woff2'),
-        url('Quango.woff') format('woff');
+    src: url('/font/Quango.woff2') format('woff2'),
+        url('/font/Quango.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
-
-
-
