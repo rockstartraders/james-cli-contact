@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   box-sizing: border-box;
@@ -33,6 +34,7 @@ body{
   display: flex;
   justify-content: left;
 
+
 }
 
 input:focus::-webkit-input-placeholder {
@@ -60,7 +62,10 @@ input:focus::-webkit-input-placeholder {
   margin-bottom: 1em;
   color: #ffffff;
   padding-left: 10px;
-  font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+
 
 
 }
@@ -69,8 +74,9 @@ form {
 
   margin-top: 15px;
 
-
 }
+
+
 
 input [type=name] {
    margin-top: 10px;
@@ -80,7 +86,9 @@ input [type=name] {
    padding: 15px;
    border-radius:5px;
    border: 1px solid #ffffff;
-   font-size: 2vw;
+
+
+
 
 }
 
@@ -92,8 +100,8 @@ input [type=number] {
    padding: 15px;
    border-radius:5px;
    border: 1px solid #ffffff;
-   font-size: 2vw;
-   border: 3px solid white;
+
+
 
 }
 
@@ -104,7 +112,7 @@ input [type=email] {
    padding: 15px;
    border-radius:5px;
    border: 1px solid #ffffff;
-   font-size: 2vw;
+
 
 }
 
@@ -115,7 +123,7 @@ input [type=subject] {
    padding: 15px;
    border-radius:5px;
    border: 1px solid #ffffff;
-   font-size: 2vw;
+
 
 }
 
@@ -127,6 +135,7 @@ input [type=subject] {
   border-radius: 5px;
   font-size: 25px;
   font-weight: bolder;
+  letter-spacing: 1px;
 
 }
 
@@ -135,9 +144,10 @@ cursor: pointer;
 border-color: #00FF00;
 color:  #00FF00;
 font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-border-radius: 25px;
+border-radius: 20px;
 font-size: 25px;
 font-weight: bolder;
+letter-spacing: 1px;
 
 }
 
@@ -149,16 +159,17 @@ textarea {
 width: 100%;
 height: 170px;
 padding: 15px;
-padding-top: 1vw;
+padding-top: 15px;;
 padding-bottom: 45px;
 background-color: #300A24;
 color: #ffffff;
 padding-left: 12px;
 margin-bottom: .5em;
-border: 1px solid #ffffff;
+border: 1.2px solid #ffffff;
 resize: none;
-font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
 
 
 
@@ -183,6 +194,7 @@ input[type=number]::-webkit-outer-spin-button {
 	color:white;
 	font-size: calc(19px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 	cursor:none;
+  letter-spacing: 2px;
 
 }
 
@@ -196,10 +208,11 @@ input[type=number]::-webkit-outer-spin-button {
   display: inline-block;
   position: center;
 
+
   }
 
 .pagkilala:hover {
-transform: rotate(12deg);
+transform: rotate(15deg);
 color: #00FF00;
 font-size: 4vw;
 
