@@ -21,6 +21,7 @@ body{
  color: #ffffff;
 
 
+
 }
 
 ::placeholder {
@@ -67,6 +68,7 @@ input:focus::-webkit-input-placeholder {
 form {
 
   margin-top: 15px;
+
 
 }
 
@@ -156,6 +158,8 @@ margin-bottom: .5em;
 border: 1px solid #ffffff;
 resize: none;
 font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+font-size: 18px;
+
 
 
 }
