@@ -1,82 +1,169 @@
 
 
-
-
-body *  {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  font-family: 'Quango';
-
-
-
-
-}
-
-.typewrite{
-	text-decoration:none;
-	color:white;
-	font-size: calc(19px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-	cursor:none;
-
-
-}
-
-body {
-
-   background-color: #300A24;
-	 color: white;
-   font-weight: bolder;
-	 text-align:center;
-	 margin-left: 30%;
-	 margin-right: 30%;
-	 margin-top: 30px;
-   font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-	 line-height: 1.1;
-
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 
 
 }
 
 
+body{
+
+ margin: 0;
+ padding: 0;
+ font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+ margin-top: 5vw;
+ padding-left: 10px;
+ padding-right:  10px;
+ background-color: #300A24;
+ color: #ffffff;
+
+
+}
 
 ::placeholder {
-  font-size: 16px;
+  font-size: 18px;
   text-align:left;
-  color:white;
-  padding-left: 6px;
-  font-family:  'White Rabbit',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+  color: #ffffff;
+  padding-left: 2px;
+  font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
   display: flex;
   justify-content: left;
-  font-weight:normal;
+
 }
 
-/* for input css */
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
 
-input[type=name] {
+.container {
+  /* border: 1px solid green;  */
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  font-size:  18px;
+  font-weight:bolder;
   width: 100%;
-  padding: 13px 5px;
-  margin: 8px 0;
-  border: 3px solid white;
-  border-radius: 4px;
-  background-color:#300A24;
-  color:white;
-  font-size: 16px;
+  position: center;
+
+
 }
 
-
-input[type=number] {
+.container input {
   width: 100%;
-  padding: 13px 5px;
-  margin: 8px 0;
-  border: 3px solid white;
-  border-radius: 4px;
-  background-color:#300A24;
-  color:white;
-  font-size: 16px;
+  padding-top: 1vw;
+  padding-bottom: 1vh;
+  background-color: #300A24;
+  margin-bottom: 1em;
+  color: #ffffff;
+  padding-left: 10px;
+  font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
 
 
 }
+
+form {
+
+  margin-top: 15px;
+
+}
+
+input [type=name] {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 100%;
+   height: 1.5vh;
+   padding: 15px;
+   border-radius:5px;
+   border: 1px solid #ffffff;
+   font-size: 2vw;
+
+}
+
+
+input [type=number] {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 100%;
+   padding: 15px;
+   border-radius:5px;
+   border: 1px solid #ffffff;
+   font-size: 2vw;
+   border: 3px solid white;
+
+}
+
+input [type=email] {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 100%;
+   padding: 15px;
+   border-radius:5px;
+   border: 1px solid #ffffff;
+   font-size: 2vw;
+
+}
+
+input [type=subject] {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   width: 100%;
+   padding: 15px;
+   border-radius:5px;
+   border: 1px solid #ffffff;
+   font-size: 2vw;
+
+}
+
+
+
+.btn {
+  color:  #00FF00;
+  font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+
+.btn:hover {
+cursor: pointer;
+border-color: #00FF00;
+color:  #00FF00;
+font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+border-radius: 25px;
+font-size: 25px;
+font-weight: bolder;
+
+}
+
+
+
+
+
+textarea {
+width: 100%;
+height: 170px;
+padding: 15px;
+padding-top: 1vw;
+padding-bottom: 45px;
+background-color: #300A24;
+color: #ffffff;
+padding-left: 12px;
+margin-bottom: .5em;
+border: 1px solid #ffffff;
+resize: none;
+font-family:  'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+
+
+}
+
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
 
 /* This will remove the scroll bar from the number input */
 
@@ -87,96 +174,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-input[type=email] {
-  width: 100%;
-  padding: 13px 5px;
-  margin: 8px 0;
-  border: 3px solid white;
-  border-radius: 4px;
-  background-color:#300A24;
-  color:white;
-  font-size: 16px;
-}
-
-
-input[type=subject] {
-  width: 100%;
-  padding: 13px 5px;
-  margin: 8px 0;
-  border: 3px solid white;
-  border-radius: 4px;
-  background-color:#300A24;
-  color:white;
-  font-size: 16px;
+.typewrite{
+	text-decoration:none;
+	color:white;
+	font-size: calc(19px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	cursor:none;
 
 }
-
-
-textarea {
-  resize: none;
-  width: 100%;
-  height: 170px;
-  padding: 13px 5px;
-  margin: 8px 0;
-  border: 3px solid white;
-  border-radius: 4px;
-  background-color:#300A24;
-  color:white;
-  font-size: 16px;
-
-
-}
-
-
-button {
-  background-color: #300A24;
-  border: 2px solid white;
-  color:  #ffffff;
-  padding: 14px 30px;
-  padding-bottom: 15px;
-  text-decoration: none;
-  margin: 2px 2px;
-  margin-bottom: 40px;
-  border-radius: 4px;
-  margin-top:2px;
-  width:9em;
-  height:3em;
-  font-family: 'White Rabbit',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-  font-size: 17px;
-  text-align: center;
-  font-weight: bolder;
-  white-space: normal;
-  /* display: flex; => tanggal muna */
-  justify-content: center;
-  margin-left: 1em;
-
-
-}
-
-
-/* button effect */
-
-.btn:hover {
-color: #00FF00 !important;
-border-radius: 55px;
-border-color: #00FF00 !important;
-transition: all 0.3s ease 0s;
-cursor: pointer;
-font-family: 'Quango',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-font-weight: bolder;
-letter-spacing: 1px;
-font-size: 17px;
-width:9.5em;
-height:3em;
-justify-content: center;
-margin-bottom: 40px;
-line-height: 1.5;
-
-}
-
-/* hover effect para sa ;inl ay magsisimula dito */
-.btn:hover span {display:none}
-.btn:hover:before {content:"Click Me"}
 
 
 .pagkilala {
@@ -186,36 +190,17 @@ line-height: 1.5;
 	font-weight: bolder;
 	transition: .4s;
   display: inline-block;
-	}
+  position: center;
+
+  }
 
 .pagkilala:hover {
 transform: rotate(12deg);
 color: #00FF00;
-font-size: 3.5vw;
+font-size: 4vw;
 
 
 }
 
 .pagkilala:hover span {display:none}
 .pagkilala:hover:before {content:"Perfect for static sites!"}
-
-
-
-@font-face {
-    font-family: 'White Rabbit';
-    src: url('/font/WhiteRabbit.woff2') format('woff2'),
-        url('/font/WhiteRabbit.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-	letter-spacing: 3px;
-}
-
-
-
-@font-face {
-    font-family: 'Quango';
-    src: url('/font/Quango.woff2') format('woff2'),
-        url('/font/Quango.woff') format('woff');
-    font-weight: bolder;
-    font-style: normal;
-}
