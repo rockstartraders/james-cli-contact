@@ -288,10 +288,3 @@ font-size: 4vw;
 
 .pagkilala:hover span {display:none}
 .pagkilala:hover:before {content:"Perfect for static sites!"}
-
-
-.lagayan {
-
-  margin-bottom: 80px;
-  padding-bottom: 50px;
-}
