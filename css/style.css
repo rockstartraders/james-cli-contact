@@ -133,8 +133,8 @@ input [type=subject] {
   color:  #00FF00;
   font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
   border-radius: 5px;
-  font-size: 25px;
-  font-weight: bolder;
+  /* font-size: 25px;
+  /* font-weight: bolder; */
   letter-spacing: 1px;
 
 }
@@ -144,10 +144,10 @@ cursor: pointer;
 border-color: #00FF00;
 color:  #00FF00;
 font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
-border-radius: 20px;
-font-size: 25px;
-font-weight: bolder;
-letter-spacing: 1px;
+/* border-radius: 20px; */
+/* font-size: 25px; */
+/* font-weight: bolder; */
+/* letter-spacing: 1px; */
 
 }
 
@@ -221,3 +221,8 @@ font-size: 4vw;
 
 .pagkilala:hover span {display:none}
 .pagkilala:hover:before {content:"Perfect for static sites!"}
+
+.chat {
+
+
+}
