@@ -127,32 +127,76 @@ input [type=subject] {
 
 }
 
+/* I change to button 5/19/2019
+/* original code:   <input class="btn" type="submit" value="Send" id="submit">
 
-
-.btn {
+/*.btn {
   color:  #00FF00;
   font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
   border-radius: 5px;
   /* font-size: 25px;
   /* font-weight: bolder; */
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;
 
 }
 
-.btn:hover {
+/* .btn:hover {
 cursor: pointer;
 border-color: #00FF00;
-color:  #00FF00;
-font-family: 'quangobold',IBM Plex Serif,Lucida Console,Inconsolata, monospace;
+/* color:  #00FF00; */
+/*font-family: 'quangobold';
 /* border-radius: 20px; */
 /* font-size: 25px; */
 /* font-weight: bolder; */
 /* letter-spacing: 1px; */
 
+/*} */
+
+ button {
+  width:20vw;
+  height: 45px;
+
+
+  background-color: #300A24; /* Green */
+  border: 1px solid #ffffff;
+  font-size: 19px;
+  color: #ffffff;
+  border-radius: 5px;
 }
 
+button:hover {
+  width:20vw;
+  height: 45px;
 
 
+  background-color: #300A24; /* Green */
+  border: 1px solid #00FF00;
+  font-size: 19px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: none;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 10px;
+}
+
+.btn:hover:after {content:"✉"}
 
 
 textarea {
