@@ -153,7 +153,7 @@ border-color: #00FF00;
 /*} */
 
  button {
-  width:18vw;
+  width:25vw;
   height: 45px;
 
 
@@ -165,7 +165,7 @@ border-color: #00FF00;
 }
 
 button:hover {
-  width:18vw;
+  width:25vw;
   height: 45px;
 
 
@@ -199,6 +199,7 @@ button:hover span {
 .btn:hover:after {content:"📨";font-size:32px}
 
 @media only screen and (max-width: 600px) {
+
   .btn:hover:after {content:""}
 }
 
