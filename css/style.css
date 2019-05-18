@@ -200,8 +200,26 @@ button:hover span {
 
 @media only screen and (max-width: 600px) {
 
+  button {
+   width:100%;
+   height: 45px;
+ }
+
+ button:hover {
+   width:100%;
+   height: 45px;
+
+   background-color: #300A24; /* Green */
+   border: 1px solid #00FF00;
+   font-size: 19px;
+   color: #ffffff;
+   border-radius: 5px;
+
+ }
   .btn:hover:after {content:""}
 }
+
+
 
 textarea {
 width: 100%;
