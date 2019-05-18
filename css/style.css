@@ -196,7 +196,7 @@ button:hover span {
   padding-right: 10px;
 }
 
-.btn:hover:after {content:"📨"}
+.btn:hover:after {content:"📨";font-size:32px}
 
 @media only screen and (max-width: 600px) {
   .btn:hover:after {content:""}
