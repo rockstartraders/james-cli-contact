@@ -1,0 +1,1 @@
+alert("Hello There ! Currently I am having some issue with Brave Browser when sending email, Please use Google Chrome or other browser instead.\n\nThank You.\nJames Paul ");
